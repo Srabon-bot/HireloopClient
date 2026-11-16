@@ -74,7 +74,11 @@ export function Navbar() {
               >
                 Sign In
               </Link>
-              <Button render={<Link href="/sign-up" />} className={brandButton}>
+              <Button
+                render={<Link href="/sign-up" />}
+                nativeButton={false}
+                className={brandButton}
+              >
                 Get Started
               </Button>
             </div>
